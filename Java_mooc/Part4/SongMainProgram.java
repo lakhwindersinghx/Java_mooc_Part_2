@@ -1,4 +1,4 @@
-public class MainProgramSong {
+public class SongMainProgram {
     public static void main(String[] args) {
         Song garden=new Song("ahahahaha",10293);
 

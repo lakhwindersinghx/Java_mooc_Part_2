@@ -1,4 +1,4 @@
-public class MainProgramDebt {
+public class DebtMainProgram {
     public static void main(String[] args) {
         Debt mortgage=new Debt(120000.0, 1.01);
 

@@ -1,4 +1,4 @@
-public class MainProgramGauge {
+public class GaugeMainProgram {
     public static void main(String[] args) {
         Gauge g = new Gauge();
 

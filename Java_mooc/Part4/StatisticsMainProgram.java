@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MainProgramStatistics {
+public class StatisticsMainProgram {
     public static void main(String[] args) {
         Scanner scanner=new Scanner((System.in));
         Statistics statistics = new Statistics();

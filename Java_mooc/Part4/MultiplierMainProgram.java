@@ -1,4 +1,4 @@
-public class MainProgramMultiplier {
+public class MultiplierMainProgram {
     public static void main(String[] args) {
 
 

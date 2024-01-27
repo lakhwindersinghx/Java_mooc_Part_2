@@ -1,7 +1,7 @@
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class mainProgramTelevision {
+public class TelevisionMainProgram {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         ArrayList<Television> movies = new ArrayList<>();

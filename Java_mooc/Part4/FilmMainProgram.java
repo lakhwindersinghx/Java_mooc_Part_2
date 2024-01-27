@@ -1,5 +1,5 @@
 import java.util.Scanner;
-public class MainProgramFilm {
+public class FilmMainProgram {
     public static void main(String[] args) {
         Scanner scanner=new Scanner(System.in);
         Film xxx=new Film("Stringendo",18);

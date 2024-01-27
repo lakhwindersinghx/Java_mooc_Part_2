@@ -1,6 +1,6 @@
-public class MainProgramDecreasingCounter {
+public class DecreasingCounterMainProgram {
     public static void main(String[] args) {
-        decreasingCounter decre=new decreasingCounter(4);
+        DecreasingCounter decre=new DecreasingCounter(4);
         decre.printValue();
         decre.decrement();
         decre.printValue();

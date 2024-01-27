@@ -1,7 +1,7 @@
-public class decreasingCounter {
+public class DecreasingCounter {
     private int value;// a variable that remembers the value of the counter
 
-    public decreasingCounter(int initialValue) {
+    public DecreasingCounter(int initialValue) {
         this.value = initialValue;
     }
 
