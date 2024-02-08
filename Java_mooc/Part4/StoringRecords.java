@@ -23,12 +23,16 @@ public class StoringRecords {
         ArrayList<Person> persons = new ArrayList<>();
         try (Scanner scanner = new Scanner(Paths.get("Part4/" + file))) {
             while (scanner.hasNext()) {
-                String
-
+                String row=scanner.nextLine();
+                String[] splits=row.split(",");
+                String name=splits[1];
+                int age=Integer.parseInt(splits[1]);
+                persons.add(new Person(name,age));
             }
 
         } catch (Exception e) {
             System.out.println(e.getMessage());
         }
+        return persons;
     }
 }
