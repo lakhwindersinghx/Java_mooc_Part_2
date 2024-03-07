@@ -4,14 +4,17 @@ import java.util.Arrays;
 
 public class MainProgram {
     public static void main(String[] args) {
-
         int[] numbers = {8, 3, 7, 9, 1, 2, 4};
+        System.out.println(Arrays.toString(numbers));
         MainProgram.sort(numbers);
+        System.out.println(Arrays.toString(numbers));
+        System.out.println(MainProgram.smallest(numbers));
+
 
     }
 
     public static int smallest(int[] array) {
-        int smallest = Integer.MAX_VALUE;
+        int smallest = array[0];
 
         for (int x : array) {
             if (x < smallest) {
@@ -54,15 +57,32 @@ public class MainProgram {
     }
 
     public static void sort(int[] array) {
-        int smallest = Integer.MAX_VALUE;
-        int startIndex = 0;
-        int valueAtStartIndex = array[startIndex];
-        for (int i = startIndex; i < array.length; i++) {
-            if (array[i] < smallest) {
-                smallest = array[i]; //this gives us our smallest value in the array
+
+        int startOfIndex = 0;
+        int counter = 1;
+
+        for (int i = startOfIndex; i < array.length; i++) {
+            System.out.println(counter + " current update " + Arrays.toString(array));
+            counter++;
+
+            int smallest = array[i];
+            int indexOfSmallest = i; // Initialize indexOfSmallest with current index
+
+            for (int j = i ; j < array.length; j++) {
+                if (array[j] < smallest) {
+                    smallest = array[j];
+                    indexOfSmallest = j;
+                }
             }
-            valueAtStartIndex = smallest;
-            startIndex++;
+
+            // Swap the values
+            int temp = array[i];
+            array[i] = array[indexOfSmallest];
+            array[indexOfSmallest] = temp;
         }
     }
+
 }
+
+
+
