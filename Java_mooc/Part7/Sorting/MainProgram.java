@@ -1,5 +1,3 @@
-import com.sun.tools.javac.Main;
-
 import java.util.Arrays;
 
 public class MainProgram {
