@@ -19,13 +19,15 @@ public class RecipeBook {
             }
         }
     }
-    public void findByTime(int time){
-        for(Recipe item:this.recipes){
-            if(item.getTime()<=time){
+
+    public void findByTime(int time) {
+        for (Recipe item : this.recipes) {
+            if (item.getTime() <= time) {
                 System.out.println(item);
             }
         }
     }
+
     public void findByIngredient(String ingredient) {
         // Search recipes by exact ingredient match
         for (Recipe recipe : recipes) {

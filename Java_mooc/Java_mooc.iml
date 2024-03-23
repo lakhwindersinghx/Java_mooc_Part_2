@@ -5,9 +5,9 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Part7/Container" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part7/GradeStatistics" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part7/RecipeSearch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part7/Searching" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part7/Sorting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part7/BigYear" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
