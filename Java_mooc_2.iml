@@ -7,6 +7,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/NickNames" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/PrintMeAnotherHashmap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/Equals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/IOweYou" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
