@@ -9,6 +9,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/PrintMeAnotherHashmap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/Equals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/IOweYou" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/SameDate" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
