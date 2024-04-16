@@ -25,4 +25,5 @@ public class VehicleRegistryMain {
         registry.printLicensePlates();
         registry.printOwners();
     }
+
 }

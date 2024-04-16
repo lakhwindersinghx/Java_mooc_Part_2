@@ -10,6 +10,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/Equals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/IOweYou" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/SameDate" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/ABC" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/DictionaryOfManyTranslations" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/Person" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses/Person" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
