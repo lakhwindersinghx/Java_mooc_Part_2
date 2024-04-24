@@ -17,6 +17,7 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses/Person" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/Warehousing" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
