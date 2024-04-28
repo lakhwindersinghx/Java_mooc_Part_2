@@ -28,22 +28,16 @@ public class Item {
         return result;
     }
 
-    public boolean equals(Object compared) {
-        //check if same location
-        if (this == compared) {
+    @Override
+    public boolean equals(Object obj) {
+        if (this == obj) {
             return true;
         }
-        //if same instance
-        if (!(compared instanceof Item)) {
+        if (obj == null || getClass() != obj.getClass()) {
             return false;
         }
-        //object conversion
-        Item comparedItem = (Item) compared;
-        //if objects are equal, instances must be equal too
-        if (this.name.equals(comparedItem.name) && this.weight == comparedItem.weight) {
-            return true;
-        }
-        return false;
-
+        Item otherItem = (Item) obj;
+        return name.equals(otherItem.name);
     }
+
 }
