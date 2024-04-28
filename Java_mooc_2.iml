@@ -6,7 +6,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/Abbreviations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/NickNames" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part8/PrintMeAnotherHashmap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/Equals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/IOweYou" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/SameDate" isTestSource="false" />
@@ -17,9 +16,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses/Person" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part9/DifferentKindOfBoxes" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part9/Warehousing" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/InterfaceInABox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/ListAsMethodParameter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/MapAsAMethodParameter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/OnlineShop" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/SetAsMethodParameter" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/TacoBox" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
