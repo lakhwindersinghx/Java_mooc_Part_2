@@ -17,6 +17,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/Animals" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part9/Herds" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/InterfaceInABox" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/ListAsMethodParameter" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/MapAsAMethodParameter" isTestSource="false" />
