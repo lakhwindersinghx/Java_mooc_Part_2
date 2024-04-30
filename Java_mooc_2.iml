@@ -12,14 +12,21 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/ABC" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/DictionaryOfManyTranslations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/Person" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses/Person" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/VehicleRegistry" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/test" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/AverageOfNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/AverageSelectedNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/BooksFromFile" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/Divisible" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/LimitedNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/PositiveNumbers" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/PrintingUserInput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/UniqueLastNames" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/Weighting" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Animals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Herds" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part9/InterfaceInABox" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/ListAsMethodParameter" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/MapAsAMethodParameter" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/OnlineShop" isTestSource="false" />
