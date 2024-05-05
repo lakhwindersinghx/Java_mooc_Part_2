@@ -19,11 +19,13 @@
       <sourceFolder url="file://$MODULE_DIR$/Part10/AverageOfNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/AverageSelectedNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Divisible" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/EnumAndIterator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/LimitedNumbers" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part10/LiteracyComparison" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Literature" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/PositiveNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/PrintingUserInput" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/RegularExpression" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part10/SortThemCards" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/StudentsOnAlphabeticalOrder" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/WageOrder" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Weighting" isTestSource="false" />
