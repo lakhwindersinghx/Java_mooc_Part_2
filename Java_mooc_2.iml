@@ -33,6 +33,8 @@
       <sourceFolder url="file://$MODULE_DIR$/Part11/SensorsAndTemperature" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part11/Statistics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part11/ValidatingParameters" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/Hideout" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/Pipe" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Animals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Herds" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/ListAsMethodParameter" isTestSource="false" />
