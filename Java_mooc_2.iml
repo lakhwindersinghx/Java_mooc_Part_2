@@ -10,7 +10,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Part8/IOweYou" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/SameDate" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/ABC" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part8/DictionaryOfManyTranslations" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/Person" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/PersonAndSubclasses/Person" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part8/StorageFacility" isTestSource="false" />
@@ -19,7 +18,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Part10/AverageOfNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/AverageSelectedNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Divisible" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part10/EnumAndIterator" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/LimitedNumbers" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Literature" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/PositiveNumbers" isTestSource="false" />
@@ -29,7 +27,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Part10/StudentsOnAlphabeticalOrder" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/WageOrder" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part10/Weighting" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part11/Dictionary" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part11/FlightControl" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part11/SaveableDictionary" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part11/SensorsAndTemperature" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part11/Statistics" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part11/ValidatingParameters" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Animals" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/Herds" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/ListAsMethodParameter" isTestSource="false" />
