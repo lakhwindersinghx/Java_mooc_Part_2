@@ -1,46 +1,48 @@
 public class HashMap<K, V> {
+
     private YourList<Pair<K, V>>[] values;
     private int firstFreeIndex;
 
     public HashMap() {
         this.values = new YourList[32];
-        this.firstFreeIndex = 0;
+        firstFreeIndex = 0;
     }
 
-    public V get(K key) {
-        int hashValue = Math.abs(hashCode() % this.values.length); //getting hashValue
-        if (this.values[hashValue] == null) { //if nothing exists at acquired hashvalue(acting as index) we return null and
+    public V getKey(K key) {
+        int hashValue = Math.abs(hashCode() % this.values.length);
+        if (this.values[hashValue] == null) {
             return null;
         }
 
-        YourList<Pair<K, V>> valueAtIndex = this.values[hashValue]; //there is no value in that index, we create a list into that index.
-        for (int i = 0; i < valueAtIndex.size(); i++) { //iterate through element found at hashValue
-            if (valueAtIndex.value(i).getKey().equals(key)) { //if the key of the value(i, while iterating) of hashValue list is equal to the parameter Key
-                return valueAtIndex.value(i).getValue(); //then return it's value
+        YourList<Pair<K, V>> valuesAtIndex = new YourList<>();
+        for (int i = 0; i < valuesAtIndex.size(); i++) {
+            if (valuesAtIndex.value(i).getKey().equals(key)) {
+                return valuesAtIndex.value(i).getValue();
             }
         }
-        return null; //if not, return null
+        return null;
     }
 
-//    public void add(K key, V value) {
-//        int hashValue = Math.abs(key.hashCode() % this.values.length);
-//        if (this.values[hashValue] == null) {
-//            this.values[hashValue] = new YourList<>();
+//    public void add(K key,V value){
+//        int hashValue=Math.abs(hashCode()%this.values.length);
+//        if(this.values[hashValue]==null){
+//           values[hashValue]=new YourList<>();
 //        }
-//        YourList<Pair<K, V>> valuesAtIndex = this.values[hashValue];
-//        for (int i = 0; i < valuesAtIndex.size(); i++) {
-//            if (valuesAtIndex.value(i).getKey().equals(key)) {
-//                valuesAtIndex.value(i).setValue(value);
+//
+//        YourList<Pair<K,V>> valuesAtIndex=new YourList<>();
+//        for(int i=0;i<valuesAtIndex.size();i++){
+//            if(valuesAtIndex.value(i).getKey().equals(key)){
+//               valuesAtIndex.value(i).setValue(value);
 //            }
 //        }
-//        valuesAtIndex.add(new Pair<>(key, value));
-//        this.firstFreeIndex++;
-//    }
+//
+//        valuesAtIndex.add(new Pair<>(key,value));
+//        firstFreeIndex++;
 
-    public YourList<Pair<K, V>> getListBasedOnKey(K key) {
-        int hashValue = Math.abs(key.hashCode() % this.values.length);
+    public YourList<Pair<K, V>> getList(K key) {
+        int hashValue = Math.abs(hashCode() % this.values.length);
         if (this.values[hashValue] == null) {
-            this.values[hashValue] = new YourList<>();
+            values[hashValue] = new YourList<>();
         }
         return values[hashValue];
     }
@@ -54,15 +56,50 @@ public class HashMap<K, V> {
         return -1;
     }
 
-    public void add(V value, K key) {
-        YourList<Pair<K, V>> valuesAtIndex = getListBasedOnKey(key);
+    public void add(K key, V value) {
+        YourList<Pair<K, V>> valuesAtIndex = getList(key);
         int index = getIndexOfKey(valuesAtIndex, key);
 
-        if (index < 0) {
-            valuesAtIndex.add(new Pair<>(key, value));
-            this.firstFreeIndex++;
+        if (index > 1) {
+            valuesAtIndex.value(index).setValue(value);
         }
-        valuesAtIndex.value(index).setValue(value);
+        valuesAtIndex.add(new Pair<>(key, value));
+        firstFreeIndex++;
+        if (1.0 * this.firstFreeIndex / this.values.length > 0.75) {
+            grow();
+        }
     }
 
+    public void grow() {
+        YourList<Pair<K, V>>[] newArray = new YourList[this.values.length * 2];
+        for (int i = 0; i < this.values.length; i++) { //to go through all the values of current array
+            //copy mechanism
+            copy(newArray, i);
+        }
+        this.values = newArray;
+    }
+
+    public void copy(YourList<Pair<K, V>>[] newArray, int fromIndex) {
+        for (int i = 0; i < this.values[fromIndex].size(); i++) {
+            Pair<K, V> value = this.values[fromIndex].value(i);
+            int hashValue = Math.abs(hashCode() % newArray.length);
+            if (newArray[hashValue] == null) {
+                newArray[hashValue] = new YourList<>();
+            }
+            newArray[hashValue].add(value);
+        }
+    }
+    public V remove(K key){
+        YourList<Pair<K,V>> valuesAtIndex=getList(key);
+        if(valuesAtIndex.size()==0){
+            return null;
+        }
+        int index=getIndexOfKey(valuesAtIndex,key);
+        if(index<0){
+            return null;
+        }
+        Pair<K,V> pair=valuesAtIndex.value(index);
+        valuesAtIndex.remove(pair);
+        return pair.getValue();
+    }
 }

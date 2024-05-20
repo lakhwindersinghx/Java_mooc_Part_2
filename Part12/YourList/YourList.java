@@ -43,7 +43,7 @@ public class YourList<Type> {
     }
 
     public void moveToLeft(int fromIndex){
-        for(int i=0;i<this.firstFreeIndex;i++){
+        for(int i=fromIndex;i<this.firstFreeIndex-1;i++){
             this.values[i]=this.values[i+1];
         }
     }
