@@ -33,7 +33,6 @@
       <sourceFolder url="file://$MODULE_DIR$/Part11/SensorsAndTemperature" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part11/Statistics" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part11/ValidatingParameters" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Part12/HashMap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part12/Hideout" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part12/Pipe" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part12/SumTheseForMe" isTestSource="false" />
@@ -45,6 +44,11 @@
       <sourceFolder url="file://$MODULE_DIR$/Part9/OnlineShop" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/SetAsMethodParameter" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Part9/TacoBox" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/ArrayAsAString" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/Die" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/LotteryRw" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/MagicSquare" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Part12/Numbers" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
