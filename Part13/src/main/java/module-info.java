@@ -1,0 +1,15 @@
+module com.example.part13 {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+    requires org.controlsfx.controls;
+    requires org.kordamp.bootstrapfx.core;
+
+    opens com.example.part13 to javafx.fxml;
+    exports com.example.part13;
+    exports ButtonAndLabel to javafx.graphics;
+    exports TextStatistics to javafx.graphics;
+    exports Notifier to javafx.graphics;
+    exports UserTitle  to javafx.graphics;
+    exports MultipleViews to javafx.graphics;
+}
