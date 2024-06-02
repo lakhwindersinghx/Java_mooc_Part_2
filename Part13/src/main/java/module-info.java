@@ -12,4 +12,7 @@ module com.example.part13 {
     exports Notifier to javafx.graphics;
     exports UserTitle  to javafx.graphics;
     exports MultipleViews to javafx.graphics;
+    exports Greeter to javafx.graphics;
+    exports VocabularyTraining to javafx.graphics;
+    exports TicTacToe to javafx.graphics;
 }
