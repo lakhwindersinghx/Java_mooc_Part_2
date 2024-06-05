@@ -16,4 +16,5 @@ module com.example.part13 {
     exports VocabularyTraining to javafx.graphics;
     exports TicTacToe to javafx.graphics;
     exports Shanghai to javafx.graphics;
+    exports SavingsCalculator to javafx.graphics;
 }

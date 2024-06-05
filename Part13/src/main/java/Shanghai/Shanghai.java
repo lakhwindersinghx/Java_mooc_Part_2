@@ -7,6 +7,7 @@ import javafx.scene.chart.NumberAxis;
 import javafx.scene.chart.XYChart;
 import javafx.stage.Stage;
 
+import java.io.File;
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Scanner;
@@ -22,6 +23,7 @@ public class Shanghai extends Application {
                 String line = fileReader.nextLine();
                 String[] parts = line.split(" ");   // split the line based on the ':' character
                 rankingData.put(Integer.parseInt(parts[0]), Integer.parseInt(parts[1]));
+                System.out.println("Year: " + Integer.parseInt(parts[0]) + ", Ranking: " + Integer.parseInt(parts[1]));
             }
         } catch (Exception e) {
             System.out.println("File not found");
@@ -49,6 +51,7 @@ public class Shanghai extends Application {
         stage.setScene(scene);
         stage.setTitle("Shanghai Ranking");
         stage.show();
+
+        }
     }
-}
 
