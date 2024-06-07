@@ -7,4 +7,5 @@ module com.button.part14 {
     exports com.button.part14;
     exports CanvasPaint to javafx.graphics;
     exports Smiley to javafx.graphics;
+    exports Asteroids to javafx.graphics;
 }
