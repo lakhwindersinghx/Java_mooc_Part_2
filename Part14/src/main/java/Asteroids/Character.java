@@ -8,16 +8,26 @@ public class Character {
 
     private Polygon character;
     private Point2D movement;
+    public  boolean isAlive;
+
 
     public Character(Polygon polygon, int x, int y) {
         this.character = polygon;
         this.character.setTranslateX(x);
         this.character.setTranslateY(y);
         this.movement = new Point2D(0, 0);
+        this.isAlive=true;
     }
 
     public Polygon getcharacter() {
         return this.character;
+    }
+    public void setAlive(boolean status){
+        this.isAlive=status ;
+    }
+
+    public boolean isAlive() {
+        return isAlive;
     }
 
     public void turnLeft() {
